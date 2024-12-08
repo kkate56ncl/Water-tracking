@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drink Water</title>
+    <link rel="icon" type="image/x-icon" href="./water-glass.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1><span>⏰</span> Time to drink some water!</h1>
+    <div class="date-time-container">
+      <p id="date-time"></p>
+      <!-- Real-time date and time -->
+    </div>
+    <h3>Goal: 2 Liters / Day</h3>
+
+    <div class="cup-container">
+      <img class="img-left" src="./cute.gif" />
+      <div class="cup">
+        <div class="remained" id="remained">
+          <span id="liters"></span>
+          <small>Remained</small>
+        </div>
+        <div class="percentage" id="percentage"></div>
+      </div>
+      <img class="img-right" src="./cute.gif" />
+    </div>
+
+    <p class="text">Select how many glasses of water that you have drank</p>
+
+    <div class="cups">
+      <div class="cup cup-small">250ml</div>
+      <div class="cup cup-small">250ml</div>
+      <div class="cup cup-small">250ml</div>
+      <div class="cup cup-small">250ml</div>
+      <div class="cup cup-small">250ml</div>
+      <div class="cup cup-small">250ml</div>
+      <div class="cup cup-small">250ml</div>
+      <div class="cup cup-small">250ml</div>
+    </div>
+
+    <div class="reset">
+      <button id="reset-btn"><span>🥛</span> Reset</button>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
